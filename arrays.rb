@@ -16,3 +16,13 @@ print birthdays.unshift 12.26
 print booleans.push true
 
 # Understanding of index positions in this file - Let's look at the above array assigned to the variable friends. On line 1 of this code, the name "Jason" would be in index position 0 because when referring to elements in an array, we always begin counting at zero/0. The element in position three/3 would be the name "Ryan."
+
+# Below, I will demonstrate the "replace" method that allows us to completely replace the elements in an array while using the same variable name.
+
+print colors = ["maroon", "orange", "white"]
+
+#Next I will replace the elements in the array above, with new colors/elements
+
+print colors.replace ["blue","yellow", "green"]
+
+
