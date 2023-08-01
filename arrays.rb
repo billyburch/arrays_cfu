@@ -14,3 +14,5 @@ print birthdays.unshift 12.26
 
 #the below push method should add another boolean (true) to the end of the array assigned to variable booleans
 print booleans.push true
+
+# Understanding of index positions in this file - Let's look at the above array assigned to the variable friends. On line 1 of this code, the name "Jason" would be in index position 0 because when referring to elements in an array, we always begin counting at zero/0. The element in position three/3 would be the name "Ryan."
